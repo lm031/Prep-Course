@@ -1,17 +1,111 @@
-h1{
-    color:darkred ;
+/*========================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
 }
-img{
+
+body {
+    background-image: url(https://img.freepik.com/vector-gratis/bon-appetit-patron-fondo-transparente-ingredientes-dispersos-utensilios-cocina-hacer-pasta-ravioles-italianos-formato-cuadrado-adecuado-papel-tapiz-tela_1284-44086.jpg?w=2000);
+    background-position: center;
+    background-size: 2000px;
+}
+
+img {
     width: 400px;
 }
-#thirdDiv{
-    height: 600px;
-    width: 400px;
-    background-color:bisque;
-    padding: 50px;
-    border: 5px solid black
-}
+
 #spanId{
     font-size: 18px;
-    margin: 50px;
+    margin-top: 1px;
+    margin-bottom: 10px;
 }
+
+/*========================================================*/
+
+.div1 {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div1__h1 {
+    background:rgba(228, 214, 202, .95);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 3px solid #AEA195;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 1%;
+
+}
+
+.div1__h3 {
+    margin-bottom: 10px;
+    color: #F4F461;
+    text-shadow: 1px 2px 2px black;
+}
+/*========================================================*/
+
+.div2 {
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*========================================================*/
+
+#div3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.div3__ul {
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(228, 214, 202, .95);
+    border: 5px solid #AEA195;
+    border-radius: 1%;
+}
+
+.gaseosa {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.agua {
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
